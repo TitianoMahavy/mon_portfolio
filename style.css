@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #0f2027;
+    background: linear-gradient(to right, #0f2027, 
+    #0f2027, #2c5364);
+    color: white;
+    font-family: Arial;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+nav a:hover{
+    color: #00c6ff;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+.text{
+    max-width: 800px;
+}
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    margin: 20px 0;
+    line-height: 1,6;
+}
+.text h2{
+    color: #00c6ff;
+    margin: 10px 0;
+}
+.buttons button{
+    padding: 12px 25px;
+    margin-right: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}.image img{
+    width: 350px;
+    border-radius: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    min-height: 80vh;
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+#about {
+    background-color: #0f2027;
+    color: #ccc;
+    padding: 60px 20px;
+}
+.yewa {
+    color: aqua;
+    width: 600px;
+    font-family: verdana;
+} 
+.yessay {
+    color: gray;
+}
+.ouou{
+    line-height: 2.8;
+    word-spacing: 5px;
+}
+.btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 100;
+}
+.sary {
+    vertical-align: middle;
+    width: 200px;
+    border-radius: 30%;
+}
+.nom{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.masection{
+    position: relative;
+    height: 500px;
+
+}
+.ouioui {
+    position: relative;
+    height: 500px;
+}
+.bruh {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    width: 500px;
+}
+.bepanda{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #0f2027;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+}
+.hoopers {
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    background-color: #ccc;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+}
+.lokoiny {
+    position: absolute;
+    top: 270px;
+    right: 10px;
+    background-color: #00c6ff;
+    border-radius: 10px;
+    width: 500px;
+    height: 120px;
+}
+
+.Mamina {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    
+}
+.basket {
+    border-radius: 10px;
+    background-color: #0f2027;
+    display: inline-block;
+    padding: 10px 20px;
+    bottom: 10px;
+    left: 10px;
+    height: 200px;
+    width: 500px;
+}
+.nom {
+    color: black;
+}
+
