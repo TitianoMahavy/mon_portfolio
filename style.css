@@ -85,9 +85,9 @@ section {
     position: fixed;
     bottom: 20px;
     right: 30px;
-    padding: 10px 15px;
+    padding: 15px 20px;
     background-color: black;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     border-radius: 5px;
     z-index: 100;
@@ -99,7 +99,7 @@ section {
 }
 .nom{
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .masection{
     position: relative;
@@ -144,6 +144,15 @@ section {
     border-radius: 10px;
     width: 500px;
     height: 120px;
+}
+.Kattybepanda {
+    position: absolute;
+    top: 420px;
+    right: 60px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
 }
 
 .Mamina {
